@@ -1,0 +1,49 @@
+.container{
+  background: url('../img/fondo.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo-img{
+  width: 30%;
+}
+
+.row-{
+  background-color: rgba(118, 215, 196, 0.5);
+}
+
+.callout{
+  margin:5px 0px 10px 0px;padding:10px;border: 1px solid hsla(0,0%,4%,.25);border-radius:3px;position: relative;color:#0a0a0a;background-color: rgba(27, 79, 114, 0.5);
+}
+.callout1{
+  margin:5px 0px 10px 0px;padding:10px;border: 0px solid hsla(0,0%,4%,.25);border-radius:3px;position: relative;color:#0a0a0a;background-color: rgba(27, 79, 114, 0.5);
+}
+[class*="column"], [class*="columns"]{
+  borde: 0.5px solid black;
+}
+a[class*="large"]{
+  color: white;
+  border: 0,5px solid white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: rgba(23, 32, 42, 0.5);
+}
+ul, li, a{
+  list-style: none;
+  color: white;
+}
+[class*="secondary"]{
+  padding: 0px;
+  margin-left: 20px;
+  width: 90%;
+  border: 1px solid black;
+}
+div[class*="callout navegacion"]{
+  background-color: rgba(72, 201, 176, 0.6);
+}
+div[class*="callout entrada"]{
+  background-color: rgba(23, 165, 137, 0.7);
+}
+div[class*="callout coment"]{
+  background-color: rgba(191, 201, 202, 0.8);
+}
