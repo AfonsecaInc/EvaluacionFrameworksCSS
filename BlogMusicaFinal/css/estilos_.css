@@ -1,0 +1,137 @@
+
+/* Definición del sistema de rejilla */
+/* ---------------------------------------------------------- */
+@media (min-width: 992px) {
+  .body{
+    background-color: brown;
+  }
+  .container{
+    background-color: black;
+  }
+  .redes-sociales{
+    width: 100%;
+    height: 100%;
+    margin-top: 131px;
+  }
+  .logo{
+    width: 100%;
+    padding: 5%;
+  }
+  .img-social {
+      width: 50px;
+      height: 50px;
+  }
+  .img-contenido{
+    height: 350px;
+    width: 220px;
+    margin-top: 20px;
+  }
+  .img-coments{
+    width: 80%;
+    height:40px;
+  }
+  .list-group{
+    margin: 0px;
+    padding-top: 0px;
+  }
+  .op{
+    text-align: center;
+    height: 100%;
+    padding: 0px 33px;
+  }
+  .op:hover{
+    opacity: 0.4;
+    box-shadow: inset 0 0 0 3px #555953;
+    text-decoration: line-through;
+  }
+
+}
+/*-------------------------------------------------------------*/
+@media (max-width: 480px){
+  .body{
+    background-color: red;
+  }
+
+  .container{
+    background-color: black;
+  }
+  .logo{
+    width: 80%;
+    margin: 0px 10%;
+  }
+  .redes-sociales{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .img-contenido{
+    height: 50vh;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .img-social {
+      margin-top: 10px;
+      width: 40px;
+      height: 40px;
+  }
+  .img-coments{
+      width: 100%;
+      height: 40px;
+    }
+
+  .op{
+    text-align: center;
+    height: 100%;
+    padding: 0px 13px;
+  }
+  .op:hover{
+    border: 1px solid black;
+    box-shadow: inset 0 0 0 3px #555953;
+    text-decoration: line-through;
+  }
+}
+@media (max-width: 767px){
+  .body{
+    background-color: red;
+  }
+
+  .container{
+    background-color: black;
+  }
+  .logo{
+    width: 50%;
+    margin: 0px 25%;
+  }
+  .redes-sociales{
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .img-contenido{
+    height: 50vh;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .img-social {
+      margin-top: 10px;
+      width: 40px;
+      height: 40px;
+  }
+  .img-coments{
+      width: 100%;
+      height: 40px;
+    }
+
+  .op{
+    text-align: center;
+    height: 100%;
+    padding: 0px 13px;
+  }
+  .op:hover{
+    border: 1px solid black;
+    box-shadow: inset 0 0 0 3px #555953;
+    text-decoration: line-through;
+  }
+}
