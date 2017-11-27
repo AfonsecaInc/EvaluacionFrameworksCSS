@@ -1,0 +1,128 @@
+@media (min-width: 992px){
+    body{
+      background: url('../img/fondo2.jpg');
+      background-repeat: repeat-y;
+    }
+    .barra-superior{
+      min-height: 150px;
+    }
+    div[class*="columna"]{
+      min-height: 25rem;
+    }
+    div[class*="bloque"]{
+      height: 25rem;
+    }
+    .columna-chat, .columna-news{
+      padding: 0 !important;
+    }
+    .contenedor-write-publicacion{
+      min-height: 7rem;
+    }
+    .contenedor-publicacion{
+      min-height: 17rem;
+      padding: 2rem;
+    }
+    .brand-logo{
+      width: 43px;
+      margin-left: 13rem;
+    }
+    .contenedor-noticias{
+      margin-top: 1rem;
+      min-height: 50rem;
+      padding: 0.5rem;
+    }
+    #img{
+      height: 506px;
+      margin: 0px;
+      padding: 0px;
+    }
+    #img-grupo{
+      height: 250px;
+      margin: 0px;
+      padding: 0px;
+    }
+    a[class*="waves"]{
+      margin: 0px;
+      padding: 0px 5px;
+    }
+    nav{
+      min-height: 150px;
+    }
+
+    div[class*="card"]{
+      padding: 10px 5px;
+      margin: 0px;
+    }
+    [class*="collection-item avatar"]{
+      background-color: rgba(255,0,0, 0.5);
+    }
+    [class*="card-fondo"], img[class*="circle"]{
+      background-color: rgba(153,255,255, 0);
+    }
+}
+@media (max-width: 480px){
+  body{
+    background: url('../img/fondo2.jpg');
+    background-repeat: repeat-y;
+  }
+  .barra-superior{
+    min-height: 150px;
+  }
+  div[class*="columna"]{
+    min-height: 25rem;
+  }
+  div[class*="bloque"]{
+    height: 25rem;
+  }
+  .columna-chat, .columna-news{
+    padding: 0 !important;
+  }
+  .contenedor-write-publicacion{
+    min-height: 7rem;
+  }
+  .contenedor-publicacion{
+    min-height: 17rem;
+    padding: 2rem;
+  }
+  .brand-logo{
+    width: 30px;
+  }
+  .contenedor-noticias{
+    margin-top: 1rem;
+    min-height: 50rem;
+    padding: 0.5rem;
+  }
+  #img{
+    height: 506px;
+    margin: 0px;
+    padding: 0px;
+  }
+  #img-grupo{
+    height: 250px;
+    margin: 0px;
+    padding: 0px;
+  }
+  #img-entrada{
+    width: 100%;
+  }
+  #navegacion>li{
+    width: 40px;
+    display: inline-flex;
+    margin: 55px 28px 25px 0px;
+  }
+  a[class*="waves waves-effect waves-light btn"],i[.material-icons]{
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px 5px;
+  }
+  nav{
+    min-height: 150px;
+  }
+  #logo{
+    height: 150px;
+    margin-left: -116px;
+  }
+  [class*="card-fondo"], img[class*="circle"]{
+    background-color: rgba(153,255,255, 0);
+  }
+}
